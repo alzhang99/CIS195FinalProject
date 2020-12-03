@@ -10,5 +10,5 @@ import UIKit
 struct Book {
     var title : String
     var author : String
-    var image : UIImage?
+    var imageURL : String
 }

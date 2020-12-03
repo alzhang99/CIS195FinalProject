@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class CollectionViewCell: UICollectionViewCell {
     
@@ -21,11 +22,17 @@ class CollectionViewCell: UICollectionViewCell {
 //        titleLabel.text = title
 //    }
     
-    func configure(title: String, author: String, image:UIImage) {
+    func configure(title: String, author: String, imageURL:String) {
 //        if let curr = book as Book? {
             titleLabel.text = title
             authorLabel.text = author
-            imageView.image = image
+        
+            if imageURL != "" {
+                let url = URL(string: imageURL)
+                imageView.kf.setImage(with: url)
+            }
+        
+//            imageView.image = image
 //        }
     }
 }
