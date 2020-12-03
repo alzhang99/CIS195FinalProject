@@ -12,6 +12,7 @@
 		B076485625798671005D6F86 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076485525798671005D6F86 /* Book.swift */; };
 		B076485B257989FB005D6F86 /* TempCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076485A257989FB005D6F86 /* TempCollectionViewController.swift */; };
 		B076486B25798C16005D6F86 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076486A25798C16005D6F86 /* CollectionViewCell.swift */; };
+		B07648702579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076486F2579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift */; };
 		B090A71525786969002D4F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090A71425786969002D4F5D /* AppDelegate.swift */; };
 		B090A71725786969002D4F5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090A71625786969002D4F5D /* SceneDelegate.swift */; };
 		B090A71925786969002D4F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090A71825786969002D4F5D /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		B076485525798671005D6F86 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		B076485A257989FB005D6F86 /* TempCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCollectionViewController.swift; sourceTree = "<group>"; };
 		B076486A25798C16005D6F86 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B076486F2579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		B090A71125786969002D4F5D /* ReadAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B090A71425786969002D4F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B090A71625786969002D4F5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				B076485025788694005D6F86 /* PreviousBooksViewController.swift */,
 				B076485A257989FB005D6F86 /* TempCollectionViewController.swift */,
 				B076486A25798C16005D6F86 /* CollectionViewCell.swift */,
+				B076486F2579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift */,
 			);
 			path = ReadAway;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B090A71925786969002D4F5D /* ViewController.swift in Sources */,
+				B07648702579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift in Sources */,
 				B076485B257989FB005D6F86 /* TempCollectionViewController.swift in Sources */,
 				B076486B25798C16005D6F86 /* CollectionViewCell.swift in Sources */,
 				B090A71525786969002D4F5D /* AppDelegate.swift in Sources */,

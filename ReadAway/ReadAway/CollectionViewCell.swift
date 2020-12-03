@@ -21,7 +21,7 @@ class CollectionViewCell: UICollectionViewCell {
 //        titleLabel.text = title
 //    }
     
-    func configure(with title: String, author: String, image:UIImage) {
+    func configure(title: String, author: String, image:UIImage) {
 //        if let curr = book as Book? {
             titleLabel.text = title
             authorLabel.text = author
