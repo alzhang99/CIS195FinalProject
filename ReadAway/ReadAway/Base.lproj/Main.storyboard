@@ -98,7 +98,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gGm-Aj-Syz"/>
-                        <color key="backgroundColor" red="0.92682385629266728" green="0.81542098179909905" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.73481164160000001" green="0.62676742149999998" blue="0.84045843909999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Cdp-27-Yqw" firstAttribute="trailing" secondItem="784-mr-Ghs" secondAttribute="trailing" id="0sY-SV-rXP"/>
                             <constraint firstItem="VkR-h2-s7j" firstAttribute="top" secondItem="kAb-8G-cwf" secondAttribute="bottom" constant="8" symbolic="YES" id="3fE-PW-7SD"/>
@@ -165,7 +165,7 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Gq0-IO-ccq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.92682385629266728" green="0.81542098179909905" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.73481164160000001" green="0.62676742149999998" blue="0.84045843909999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="o9j-Ja-o9l">
                             <size key="itemSize" width="140" height="180"/>
                             <size key="headerReferenceSize" width="50" height="45"/>
@@ -380,7 +380,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ePg-Hc-MSy"/>
-                        <color key="backgroundColor" red="0.92682385629266728" green="0.81542098179909905" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.73481164160000001" green="0.62676742149999998" blue="0.84045843909999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2P4-Nu-btj" firstAttribute="leading" secondItem="LnE-VH-9q1" secondAttribute="leading" id="0Go-TO-IbE"/>
                             <constraint firstItem="LnE-VH-9q1" firstAttribute="trailing" secondItem="ugM-T6-wfo" secondAttribute="trailing" id="1Xw-1v-jqH"/>
@@ -520,7 +520,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ERe-kl-TvH"/>
-                        <color key="backgroundColor" red="0.92682385629266728" green="0.81542098179909905" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.73481164157513112" green="0.62676742150433606" blue="0.84045843908629436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ENk-k9-ag2" firstAttribute="top" secondItem="hB0-aD-2q7" secondAttribute="bottom" constant="25" id="0vn-jF-fFS"/>
                             <constraint firstItem="hB0-aD-2q7" firstAttribute="leading" secondItem="Qdj-Hp-isF" secondAttribute="leadingMargin" id="176-tZ-10y"/>
@@ -571,7 +571,7 @@
         <scene sceneID="rQi-6f-9aP">
             <objects>
                 <viewController title="AddNoteViewController" id="o2d-Al-FUD" customClass="AddNoteViewController" customModule="ReadAway" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aIH-JN-umX">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="aIH-JN-umX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -601,7 +601,7 @@
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LPy-nr-9a6"/>
-                        <color key="backgroundColor" red="0.92682385629266728" green="0.81542098179909905" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.73481164160000001" green="0.62676742149999998" blue="0.84045843909999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="D3Y-6Z-qq4" firstAttribute="trailing" secondItem="mvz-ur-vcT" secondAttribute="trailing" id="0Dk-Cx-QUN"/>
                             <constraint firstItem="LPy-nr-9a6" firstAttribute="bottom" secondItem="mvz-ur-vcT" secondAttribute="bottom" constant="63" id="1z7-Yy-ih9"/>
