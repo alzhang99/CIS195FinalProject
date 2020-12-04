@@ -9,7 +9,14 @@ import UIKit
 
 class CurrCollectionViewController: UICollectionViewController, AddBookDelegate {
     
-    var books : [Book] = [Book(title: "Where the Crawdads Sing", author: "Delia Owens", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-L.jpg", notes: ["Quote on pg 22", "Love the cover"]), Book(title: "Excellent Sheep", author: "William Deresiewicz", imageURL: "http://covers.openlibrary.org/b/isbn/1476702721-L.jpg", notes: [])]
+    var books : [Book] = [
+        Book(title: "Where the Crawdads Sing", author: "Delia Owens", imageURL: "http://covers.openlibrary.org/b/isbn/0735219095-L.jpg", notes: ["Quote on pg 22", "Look up story behind this", "save poem on pg 87"]),
+        Book(title: "Excellent Sheep", author: "William Deresiewicz", imageURL: "http://covers.openlibrary.org/b/isbn/1476702721-L.jpg", notes: ["I feel the same way", "pg 43- reference"]),
+        Book(title: "Educated: A Memoir", author: "Tara Westover", imageURL: "http://covers.openlibrary.org/b/isbn/9780399590504-L.jpg", notes: ["lookup this mountain"]),
+        Book(title: "Normal People", author: "Sally Rooney", imageURL: "http://covers.openlibrary.org/b/isbn/1984822179-L.jpg", notes: ["pg 52"]),
+        Book(title: "Little Fires Everywhere", author: "Celeste Ng", imageURL: "http://covers.openlibrary.org/b/isbn/9780735224292-L.jpg", notes: []),
+//        Book(title: "Zero to One", author: "Peter Thiel", imageURL: "http://covers.openlibrary.org/b/isbn/9780804139298-L.jpg", notes: [])
+    ]
         
     let titles : [String] = ["book1", "book2", "book3"]
     var selectedBook : Book? = nil
@@ -37,7 +44,7 @@ class CurrCollectionViewController: UICollectionViewController, AddBookDelegate 
             guard let cell  = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "HeaderCollectionReusable", for: indexPath) as? HeaderCollectionReusable else {
                 fatalError()
             }
-            cell.header.text = "Current Books"
+            cell.header.text = "ReadAway"
             return cell
     }
     

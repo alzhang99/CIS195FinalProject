@@ -9,8 +9,6 @@ import UIKit
 
 class HeaderCollectionReusable: UICollectionReusableView {
     @IBOutlet weak var header: UILabel!
-    
-    @IBOutlet weak var prevHeader: UILabel!
 }
     
 
