@@ -414,11 +414,11 @@
             </objects>
             <point key="canvasLocation" x="275.625" y="-30.633802816901408"/>
         </scene>
-        <!--Current Books-->
+        <!--Books-->
         <scene sceneID="WKt-rn-QPQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aHd-p9-vD2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Current Books" image="book.fill" catalog="system" id="cNW-CR-1c9"/>
+                    <tabBarItem key="tabBarItem" title="Books" image="book.fill" catalog="system" id="cNW-CR-1c9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HI1-z5-OTW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
