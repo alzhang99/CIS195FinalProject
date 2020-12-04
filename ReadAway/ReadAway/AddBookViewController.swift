@@ -37,7 +37,7 @@ class AddBookViewController: UIViewController {
     
     func createNewBook() -> Book?{
         if titleInput.hasText && authorInput.hasText {
-            return Book(title: titleInput.text!, author: authorInput.text!, imageURL: imageURLInput.text!)
+            return Book(title: titleInput.text!, author: authorInput.text!, imageURL: imageURLInput.text!, notes:[])
         }
         return nil
     }

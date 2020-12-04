@@ -9,11 +9,11 @@
 import UIKit
 
 class PrevCollectionViewController: UICollectionViewController {
-    var books : [Book] = [Book(title: "Obama", author: "Obama", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-S.jpg"), Book(title: "Harry Potter", author: "JK Rowlong", imageURL: ""),
-        Book(title: "Educated", author: "Tara Westover", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-S.jpg"),
-        Book(title: "Hamlet", author: "Shakespear", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-S.jpg"),
-        Book(title: "Beloved", author: "Toni Morrison", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-S.jpg")]
-            
+//    var books : [Book] = [Book(title: "Obama", author: "Obama", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-S.jpg"), Book(title: "Harry Potter", author: "JK Rowlong", imageURL: ""),
+//        Book(title: "Educated", author: "Tara Westover", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-S.jpg"),
+//        Book(title: "Hamlet", author: "Shakespear", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-S.jpg"),
+//        Book(title: "Beloved", author: "Toni Morrison", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-S.jpg")]
+//
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -9,7 +9,7 @@ import UIKit
 
 class CurrCollectionViewController: UICollectionViewController, AddBookDelegate {
     
-    var books : [Book] = [Book(title: "Where the Crawdads Sing", author: "Delia Owens", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-L.jpg"), Book(title: "Excellent Sheep", author: "William Deresiewicz", imageURL: "http://covers.openlibrary.org/b/isbn/1476702721-L.jpg")]
+    var books : [Book] = [Book(title: "Where the Crawdads Sing", author: "Delia Owens", imageURL: "http://covers.openlibrary.org/b/isbn/9780385533225-L.jpg", notes: ["Quote on pg 22", "Love the cover"]), Book(title: "Excellent Sheep", author: "William Deresiewicz", imageURL: "http://covers.openlibrary.org/b/isbn/1476702721-L.jpg", notes: [])]
         
     let titles : [String] = ["book1", "book2", "book3"]
     var selectedBook : Book? = nil
