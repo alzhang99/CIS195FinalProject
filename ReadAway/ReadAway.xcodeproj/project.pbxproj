@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B076484C25788617005D6F86 /* CurrentBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076484B25788617005D6F86 /* CurrentBooksViewController.swift */; };
-		B076485125788694005D6F86 /* PreviousBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076485025788694005D6F86 /* PreviousBooksViewController.swift */; };
 		B076485625798671005D6F86 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076485525798671005D6F86 /* Book.swift */; };
-		B076485B257989FB005D6F86 /* TempCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076485A257989FB005D6F86 /* TempCollectionViewController.swift */; };
+		B076485B257989FB005D6F86 /* CurrCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076485A257989FB005D6F86 /* CurrCollectionViewController.swift */; };
 		B076486B25798C16005D6F86 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076486A25798C16005D6F86 /* CollectionViewCell.swift */; };
-		B07648702579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076486F2579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift */; };
+		B07648702579A0EE005D6F86 /* HeaderCollectionReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076486F2579A0EE005D6F86 /* HeaderCollectionReusable.swift */; };
 		B07648762579AB8E005D6F86 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B07648752579AB8E005D6F86 /* Kingfisher */; };
+		B07648A22579B4EF005D6F86 /* PrevCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07648A12579B4EF005D6F86 /* PrevCollectionViewController.swift */; };
+		B07648B22579CE53005D6F86 /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07648B12579CE52005D6F86 /* AddBookViewController.swift */; };
 		B090A71525786969002D4F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090A71425786969002D4F5D /* AppDelegate.swift */; };
 		B090A71725786969002D4F5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090A71625786969002D4F5D /* SceneDelegate.swift */; };
-		B090A71925786969002D4F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090A71825786969002D4F5D /* ViewController.swift */; };
 		B090A71C25786969002D4F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B090A71A25786969002D4F5D /* Main.storyboard */; };
 		B090A71E2578696C002D4F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B090A71D2578696C002D4F5D /* Assets.xcassets */; };
 		B090A7212578696C002D4F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B090A71F2578696C002D4F5D /* LaunchScreen.storyboard */; };
@@ -42,16 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B076484B25788617005D6F86 /* CurrentBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBooksViewController.swift; sourceTree = "<group>"; };
-		B076485025788694005D6F86 /* PreviousBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousBooksViewController.swift; sourceTree = "<group>"; };
 		B076485525798671005D6F86 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		B076485A257989FB005D6F86 /* TempCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCollectionViewController.swift; sourceTree = "<group>"; };
+		B076485A257989FB005D6F86 /* CurrCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrCollectionViewController.swift; sourceTree = "<group>"; };
 		B076486A25798C16005D6F86 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		B076486F2579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		B076486F2579A0EE005D6F86 /* HeaderCollectionReusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusable.swift; sourceTree = "<group>"; };
+		B07648A12579B4EF005D6F86 /* PrevCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevCollectionViewController.swift; sourceTree = "<group>"; };
+		B07648B12579CE52005D6F86 /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
 		B090A71125786969002D4F5D /* ReadAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B090A71425786969002D4F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B090A71625786969002D4F5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B090A71825786969002D4F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B090A71B25786969002D4F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B090A71D2578696C002D4F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B090A7202578696C002D4F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -116,16 +114,15 @@
 				B076485525798671005D6F86 /* Book.swift */,
 				B090A71425786969002D4F5D /* AppDelegate.swift */,
 				B090A71625786969002D4F5D /* SceneDelegate.swift */,
-				B090A71825786969002D4F5D /* ViewController.swift */,
 				B090A71A25786969002D4F5D /* Main.storyboard */,
 				B090A71D2578696C002D4F5D /* Assets.xcassets */,
 				B090A71F2578696C002D4F5D /* LaunchScreen.storyboard */,
 				B090A7222578696C002D4F5D /* Info.plist */,
-				B076484B25788617005D6F86 /* CurrentBooksViewController.swift */,
-				B076485025788694005D6F86 /* PreviousBooksViewController.swift */,
-				B076485A257989FB005D6F86 /* TempCollectionViewController.swift */,
+				B076485A257989FB005D6F86 /* CurrCollectionViewController.swift */,
 				B076486A25798C16005D6F86 /* CollectionViewCell.swift */,
-				B076486F2579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift */,
+				B076486F2579A0EE005D6F86 /* HeaderCollectionReusable.swift */,
+				B07648A12579B4EF005D6F86 /* PrevCollectionViewController.swift */,
+				B07648B12579CE52005D6F86 /* AddBookViewController.swift */,
 			);
 			path = ReadAway;
 			sourceTree = "<group>";
@@ -284,14 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B090A71925786969002D4F5D /* ViewController.swift in Sources */,
-				B07648702579A0EE005D6F86 /* TempHeaderCollectionReusableView.swift in Sources */,
-				B076485B257989FB005D6F86 /* TempCollectionViewController.swift in Sources */,
+				B07648702579A0EE005D6F86 /* HeaderCollectionReusable.swift in Sources */,
+				B07648B22579CE53005D6F86 /* AddBookViewController.swift in Sources */,
+				B07648A22579B4EF005D6F86 /* PrevCollectionViewController.swift in Sources */,
+				B076485B257989FB005D6F86 /* CurrCollectionViewController.swift in Sources */,
 				B076486B25798C16005D6F86 /* CollectionViewCell.swift in Sources */,
 				B090A71525786969002D4F5D /* AppDelegate.swift in Sources */,
 				B076485625798671005D6F86 /* Book.swift in Sources */,
-				B076485125788694005D6F86 /* PreviousBooksViewController.swift in Sources */,
-				B076484C25788617005D6F86 /* CurrentBooksViewController.swift in Sources */,
 				B090A71725786969002D4F5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

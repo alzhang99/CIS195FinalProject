@@ -10,7 +10,6 @@ import Kingfisher
 
 class CollectionViewCell: UICollectionViewCell {
     
-
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var authorLabel: UILabel!
@@ -18,12 +17,7 @@ class CollectionViewCell: UICollectionViewCell {
     
     var book: Book? = nil
     
-//    func configure(with title: String) {
-//        titleLabel.text = title
-//    }
-    
     func configure(title: String, author: String, imageURL:String) {
-//        if let curr = book as Book? {
             titleLabel.text = title
             authorLabel.text = author
         
@@ -32,7 +26,5 @@ class CollectionViewCell: UICollectionViewCell {
                 imageView.kf.setImage(with: url)
             }
         
-//            imageView.image = image
-//        }
     }
 }
