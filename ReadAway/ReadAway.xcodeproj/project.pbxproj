@@ -14,6 +14,7 @@
 		B07648762579AB8E005D6F86 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B07648752579AB8E005D6F86 /* Kingfisher */; };
 		B07648A22579B4EF005D6F86 /* PrevCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07648A12579B4EF005D6F86 /* PrevCollectionViewController.swift */; };
 		B07648B22579CE53005D6F86 /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07648B12579CE52005D6F86 /* AddBookViewController.swift */; };
+		B07648B72579F9B8005D6F86 /* DetailBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07648B62579F9B8005D6F86 /* DetailBookViewController.swift */; };
 		B090A71525786969002D4F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090A71425786969002D4F5D /* AppDelegate.swift */; };
 		B090A71725786969002D4F5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090A71625786969002D4F5D /* SceneDelegate.swift */; };
 		B090A71C25786969002D4F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B090A71A25786969002D4F5D /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		B076486F2579A0EE005D6F86 /* HeaderCollectionReusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusable.swift; sourceTree = "<group>"; };
 		B07648A12579B4EF005D6F86 /* PrevCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevCollectionViewController.swift; sourceTree = "<group>"; };
 		B07648B12579CE52005D6F86 /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		B07648B62579F9B8005D6F86 /* DetailBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookViewController.swift; sourceTree = "<group>"; };
 		B090A71125786969002D4F5D /* ReadAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B090A71425786969002D4F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B090A71625786969002D4F5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,17 +114,18 @@
 			isa = PBXGroup;
 			children = (
 				B076485525798671005D6F86 /* Book.swift */,
+				B076486F2579A0EE005D6F86 /* HeaderCollectionReusable.swift */,
+				B076486A25798C16005D6F86 /* CollectionViewCell.swift */,
+				B07648B12579CE52005D6F86 /* AddBookViewController.swift */,
+				B07648B62579F9B8005D6F86 /* DetailBookViewController.swift */,
+				B076485A257989FB005D6F86 /* CurrCollectionViewController.swift */,
+				B07648A12579B4EF005D6F86 /* PrevCollectionViewController.swift */,
+				B090A71A25786969002D4F5D /* Main.storyboard */,
 				B090A71425786969002D4F5D /* AppDelegate.swift */,
 				B090A71625786969002D4F5D /* SceneDelegate.swift */,
-				B090A71A25786969002D4F5D /* Main.storyboard */,
 				B090A71D2578696C002D4F5D /* Assets.xcassets */,
 				B090A71F2578696C002D4F5D /* LaunchScreen.storyboard */,
 				B090A7222578696C002D4F5D /* Info.plist */,
-				B076485A257989FB005D6F86 /* CurrCollectionViewController.swift */,
-				B076486A25798C16005D6F86 /* CollectionViewCell.swift */,
-				B076486F2579A0EE005D6F86 /* HeaderCollectionReusable.swift */,
-				B07648A12579B4EF005D6F86 /* PrevCollectionViewController.swift */,
-				B07648B12579CE52005D6F86 /* AddBookViewController.swift */,
 			);
 			path = ReadAway;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				B07648702579A0EE005D6F86 /* HeaderCollectionReusable.swift in Sources */,
 				B07648B22579CE53005D6F86 /* AddBookViewController.swift in Sources */,
+				B07648B72579F9B8005D6F86 /* DetailBookViewController.swift in Sources */,
 				B07648A22579B4EF005D6F86 /* PrevCollectionViewController.swift in Sources */,
 				B076485B257989FB005D6F86 /* CurrCollectionViewController.swift in Sources */,
 				B076486B25798C16005D6F86 /* CollectionViewCell.swift in Sources */,
